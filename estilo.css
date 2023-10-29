@@ -1,0 +1,106 @@
+body {
+  background-image: url("https://cdn.discordapp.com/attachments/1120699930189778996/1161512654100238347/Design_sem_nome.jpg?ex=653891f4&is=65261cf4&hm=ec97f25a9e76214b6375067a&");
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+h1 {
+  display: table;
+  font-family: 'Playpen Sans';
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  padding: 30px;
+
+  display: flex;
+}
+
+
+.area-login {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 355px;
+  height: 320px;
+  padding: 35px;
+  border-radius: 10px;
+
+}
+
+.login form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.login input {
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.20);
+  padding-left: 10px;
+  color: white;
+  border: none;
+  height: 45px;
+  outline: none;
+  border-radius: 8px;
+}
+
+.login:placeholder {
+  color: white;
+  font-size: 14px;
+
+
+}
+
+
+
+button {
+  display: block;
+  background-color: #cccccc;
+  border-radius: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000000;
+  padding-top: 10px;
+  border-style: none;
+  font-size: 15PX;
+
+}
+
+.login button {
+  margin-top: 10px;
+}
+
+
+p {
+  color: #000000;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+
+
